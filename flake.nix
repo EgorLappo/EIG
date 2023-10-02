@@ -26,6 +26,7 @@
 
             buildInputs = [
               pkgs.gsl
+              pkgs.lapack
               pkgs.openblas
             ] ++ (
               if isAarch64 && isDarwin then
